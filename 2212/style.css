@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+}
+
+
+
+h1 {
+    font-size: 60px;
+}
+
+.options {
+    display: flex;
+    text-indent: 50px;
+    position: absolute;
+    top: 80px;
+    left: 1200px;
+}
+
+.options a {
+    text-decoration: none;
+}
+
+.cubepic img {
+    height: 400px;
+    margin-top: 30px;
+}
+
+
+.New {
+    position: relative;
+    bottom: 405px;
+    left: 1000px;
+    text-align: center;
+    background-color: #03001c;
+    border: 3px solid black;
+    color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.New h1 {
+    font-size: 40px;
+    color: orange;
+}
+
+.brightweb {
+    position: relative;
+    bottom: 600px;
+}
+
+.belowcubepic {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+
+
+.dropdown {
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    left: 450px;
+}
+
+.dropdown button {
+    background-image: url("https://raw.githubusercontent.com/grup208/classWorksHTML/be9a766d0e756ffb0f59a30ffd3d3b33c06344c6/22.12.2023/assets/images/icon-menu.svg");
+    width: 30px;
+    height: 20px;
+
+}
+
+.dropdown a {
+    width: 150px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 300px;
+    width: 250px;
+
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    right: 100%;
+
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: white;
+}
+
+.dropdown a:hover {
+    background-color: orange;
+}
+
+.headerimage img {
+    height: 450px;
+    width: 490px;
+}
+
+.belowimage h1 {
+    font-size: 50px;
+}
+
+.paragraph p {
+    color: grey;
+}
+
+.readmorebutton button {
+    background-color:brown;
+    color: white;
+    width: 170px;
+    height: 50px;
+}
+
+.new {border: 1px solid black;background-color: #03001c;color: white;width: 350px;text-align: center;}
+
+.new h2 {color: orange;}
