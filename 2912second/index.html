@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstdescription {
+            text-align: center;
+        }
+
+        .firstbutton {
+            text-align: center;
+        }
+
+        .firstbutton button {
+            width: 150px;
+            height: 50px;
+            border: 1px solid orangered;
+            border-radius: 50px;
+            background-color: orangered;
+            color: white;
+        }
+
+        .secondbutton button {
+            width: 150px;
+            height: 50px;
+            border: 1px solid orangered;
+            border-radius: 50px;
+            background-color: orangered;
+            color: white;
+        }
+
+        .seconddescription {
+            text-align: center;
+        }
+
+        .whattheysaid {
+            text-align: center;
+        }
+
+        .whattheysaid img {
+            height: 70px;
+            width: 70px;
+        }
+
+        .whattheysaid p {
+            color: grey;
+        }
+
+        .one h3 {
+            background-color: rgb(248, 197, 179);
+        }
+
+        .one p {
+            color: grey;
+        }
+
+        .two h3 {
+            background-color: rgb(248, 197, 179);
+        }
+
+        .two p {
+            color: grey;
+        }
+
+        .three h3 {
+            background-color: rgb(248, 197, 179);
+        }
+
+        .three p {
+            color: grey;
+        }
+
+        .end {
+            border: 1px solid orangered;
+            color: white;
+            background-color: orangered;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .end button {
+            width: 150px;
+            height: 50px;
+            border: 1px solid orangered;
+            border-radius: 50px;
+            background-color: white;
+            color: orangered;
+        }
+
+        .endtwo {
+            background-color: #0e1013;
+            height: 800px;
+        }
+
+        .endtwo button {
+            height: 50px;
+            width: 60px;
+            border: 1px solid orangered;
+            border-radius: 20px;
+            background-color: orangered;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .endtwo input {
+            height: 40px;
+            width: 200px;
+            border-radius: 20px;
+            border: 1px solid #0e1013;
+        }
+
+        .pfirst p {
+            padding-top: 30px;
+        }
+
+        .icons img {
+            height: 30px;
+            width: 30px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .endthree img{width: 150px;height: 50px;}
+       
+        .burger {
+            position: absolute;
+            top: 40px;
+            right: 30px;
+            width: 30px;
+            height: 30px;
+            background-image: url("https://raw.githubusercontent.com/grup208/classWorksHTML/748e232722a0570cc086892a245b3166b433f504/29.12.2023/task_2/images/icon-hamburger.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition-delay: 0.2s;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            
+        }
+
+        menu a {
+            font-size: 25px;
+            text-decoration: none;
+        }
+
+        menu {
+            color: white;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            height: 0;
+            overflow: hidden;
+            width: 200px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            background-color: white;
+            transition-delay: 0.2s;
+        }
+
+        .drop-down-container:hover .burger {
+            background-image: url("https://raw.githubusercontent.com/grup208/classWorksHTML/748e232722a0570cc086892a245b3166b433f504/29.12.2023/task_2/images/icon-close.svg");
+        }
+
+        .drop-down-container:hover menu {
+            height: 150px;
+            padding: 20px 0;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="" style="color:white"><img src="./images/logo.svg" alt=""></a>
+        <div class="drop-down-container">
+            <div class="burger"></div>
+            <menu>
+                <a href="">Manage</a>
+                <a href="">Track</a>
+                <a href="">Career</a>
+                <a href="">Path</a>
+            </menu>
+        </div>
+    </nav>
+    <img src="logo.svg">
+    <br>
+    <img src="illustration-intro.svg">
+    <div class="firstdescription">
+        <h1>Bring Everyone<br>Together to Build<br>Better Products</h1>
+        <p>Manage makes it simple for software teams<br>to plan day-to-day tasks while keepting the<br>larger team goals
+            in view.</p>
+    </div>
+    <div class="firstbutton">
+        <button>Get Started</button>
+    </div>
+    <div class="seconddescription">
+        <h1>What's different about<br>Manage?</h1>
+        <p>Manage provides all the functuality your<br>team needs. without the complexity our<br>software is total-made
+            for modern digital<br>product teams.</p>
+    </div>
+
+    <div class="onetwothree">
+        <div class="one">
+            <h3>Track company-wide progress</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Vel asperiores voluptatibus at praesentium inventore tempora<br>
+                qui labore impedit voluptatem eveniet maxime, architecto dolor obcaecati.<br></p>
+
+        </div>
+
+        <div class="two">
+            <h3>Advanced built in reports</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Vel asperiores voluptatibus at praesentium inventore tempora provident <br>
+                qui labore impedit voluptatem eveniet maxime, architecto dolor obcaecati.<br></p>
+        </div>
+
+        <div class="three">
+            <h3>Everything you need in one place</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Vel asperiores voluptatibus at praesentium inventore tempora provident <br>
+                qui labore impedit voluptatem eveniet maxime, architecto dolor obcaecati.<br></p>
+        </div>
+
+        <div class="whattheysaid">
+            <h1>What they've said</h1>
+            <img src="avatar-ali.png">
+            <h3>Ali bravo</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                Maiores maxime iure recusandae, saepe placeat iusto error <br>
+                voluptas tenetur ea nesciunt nostrum in, cupiditate<br>
+                qui illum tempore modi aperiam consequatur autem!</p>
+            <br>
+            <br>
+            <div class="secondbutton">
+                <button>Get Started</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="end">
+                <h1>Simply how <br> your team works<br>today</h1>
+                <button>Get Started</button>
+            </div>
+
+            <div class="endtwo">
+                <input type="text" placeholder="Updates in your inbox..." name="uname" required> <button>GO</button>
+                <div class="pfirst">
+                    <p>Home</p>
+                    <p>Pricing</p>
+                    <p>Products</p>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>Community</p>
+                    <p>Privacy Policy</p>
+                </div>
+
+                <div class="icons">
+                    <img src="icon-facebook.svg">
+                    <img src="icon-instagram.svg">
+                    <img src="icon-youtube.svg">
+                    <img src="icon-twitter.svg">
+                    <img src="icon-pinterest.svg">
+                </div>
+<br>
+<br>
+                <div class="endthree">
+                <img src="logo.svg">
+                <p>©Copyright 2024 All Rights Reserved </p>
+                </div>
+
+
+
+
+
+</body>
+
+</html>
