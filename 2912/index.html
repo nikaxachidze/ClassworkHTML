@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cards {
+            width: 96%;
+            margin: 50px auto;
+            
+        }
+
+
+
+        .card1 {
+            background-color: #e28525;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start
+        }
+
+        .card1 {
+            color: aliceblue;
+        }
+
+        .card2 {
+            width: 100%;
+            height: 500px;
+            background-color: #016972;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start
+        }
+
+        .card3 {
+            width: 100%;
+            height: 500px;
+            background-color: #00403f;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start
+        }
+
+        .card1 button {width: 150px;height: 50px;border:1px solid white;border-radius: 50px;color:#e28525;margin: 30px;}
+
+        .card2 button {width: 150px;height: 50px;border:1px solid white;border-radius: 50px;color:#016972;margin: 30px;}
+
+        .card3 button {width: 150px;height: 50px;border:1px solid white;border-radius: 50px;color:#00403f;margin: 30px;}
+
+        
+
+        @media only screen and (min-width: 800px) {
+        .cards {
+            width: 700px;
+            display: flex;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="cards">
+
+        <div class="card1">
+            <img src="icon-sedans.svg">
+            <div class="cardone">
+                <h1>SEDANS</h1>
+                <p>Choose a sedan for its<br> affordability and excellent fuel<br>economy.ideal for cruising in<br>the
+                    city or on your next road<br>trip.</p>
+                    <button type="button">Learn More</button>
+            </div>
+        </div>
+        <div class="card2">
+            <img src="icon-suvs.svg">
+            <div class="cardtwo">
+                <h1>SUVS</h1>
+                <p>Take an SUV for its spacious<br>interior,power,and versality.<br>Perfect for your next
+                    family<br>vacation and off-road adventures.</p>
+                    <br>
+                    <button type="button">Learn More</button>
+                    
+            </div>
+        </div>
+        <div class="card3">
+            <img src="icon-luxury.svg">
+            <div class="cardthree"><h1>LUXURY</h1>
+                <p>Cruise in the best car brands<br>without the bloated prices<br>Enjoy the enchanced comfort of
+                <br>a luxury rental and arrived in </p></div>
+                <br>
+                <button type="button">Learn More</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
