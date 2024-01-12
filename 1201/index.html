@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {background-image: url("https://github.com/grup208/classWorksHTML/blob/main/12.01.2024/images/mobile-image-hero-1.jpg?raw=true");
+              background-repeat: no-repeat;}   */
+
+        .name h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .name img {
+            height: 500px;
+            width: 500px;
+            position: relative;
+            bottom: 80px;
+            right: 8px;
+            z-index: -1;
+        }
+
+        .description {
+            position: relative;
+            bottom: 100px;
+            text-align: center;
+
+        }
+
+        .description h1 {
+            font-size: 50px;
+        }
+
+        .description p {
+            color: grey;
+        }
+
+        .description h2 {
+            margin-top: 50px;
+            margin-right: 100px;
+        }
+
+        .description img {
+            position: relative;
+            left: 50px;
+            bottom: 40px;
+        }
+
+        .secondimage img {
+            width: 400px;
+            margin-left: 30px;
+        }
+
+        .descriptiontwo {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .descriptiontwo p {
+            color: grey;
+        }
+
+        .thirdimage img {
+            width: 400px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+
+
+        .burger {
+            position: absolute;
+            top: 15px;
+            left: 30px;
+            width: 60px;
+            height: 60px;
+            background-image: url("https://icon-library.com/images/white-hamburger-menu-icon/white-hamburger-menu-icon-24.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition-delay: 0.2s;
+
+
+
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+
+
+        }
+
+        menu a {
+            font-size: 25px;
+            text-decoration: none;
+
+        }
+
+        menu {
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            height: 0px;
+            left: 30px;
+            overflow: hidden;
+            width: 200px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            background-color: white;
+            transition-delay: 0.2s;
+            z-index: 1;
+
+        }
+
+        .drop-down-container:hover .burger {
+            background-image: url("https://icon-library.com/images/white-hamburger-menu-icon/white-hamburger-menu-icon-24.jpg");
+        }
+
+        .drop-down-container:hover menu {
+            height: 150px;
+            padding: 20px 0;
+        }
+
+        .angles img {
+            height: 80px;
+            width: 130px;
+            position: relative;
+            bottom: 165px;
+            left: 345px;
+        }
+
+        @media (min-width: 530px) {
+            .name {
+                width: 70%;
+            }
+
+            .name img {
+                width: 90%;
+
+            }
+
+            .name h1 {
+                margin-right: 85%;
+
+            }
+
+            .description {
+                position: absolute;
+                left: 71%;
+                bottom: 56%;
+            }
+
+            .secondimage img {
+                width: 30%;
+                position: relative;
+                bottom: 206px;
+                right: 38px;
+            }
+
+            .descriptiontwo {
+                
+                position: absolute;
+                top:53%;
+                left:33%;
+                font-size: 25px;
+                width: 35%;
+            }
+
+            .thirdimage img {width: 32%;
+                position: relative;
+                bottom: 600px;
+                left: 68%;}
+
+                .angles img {width: 10%;position: relative;left: 62%;}
+} 
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="all">
+
+    <div class="name">
+        <h1>room</h1>
+        <img src="https://github.com/grup208/classWorksHTML/blob/main/12.01.2024/images/mobile-image-hero-1.jpg?raw=true">
+    </div>
+    
+
+    <div class="angles">
+        <img src="./Capture.PNG">
+    </div>
+    <nav>
+        <a href="" style="color:white"><img src="./images/logo.svg" alt=""></a>
+        <div class="drop-down-container">
+            <div class="burger"></div>
+            <menu>
+                <a href="">room</a><br>
+                <a href="">room</a><br>
+                <a href="">room</a><br>
+            </menu>
+        </div>
+    </nav>
+
+
+
+    <div class="description">
+        <h1>Discover innovative<br>ways to decorate</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <h2>SHOP NOW</h2>
+        <img
+            src="https://raw.githubusercontent.com/grup208/classWorksHTML/eb2a6ab72d12bb44b77d0c931bd90036dd6918a6/12.01.2024/images/icon-arrow.svg">
+    </div>
+
+    <div class="secondimage">
+        <img src="https://github.com/grup208/classWorksHTML/blob/main/12.01.2024/images/image-about-dark.jpg?raw=true">
+    </div>
+
+    <div class="descriptiontwo">
+        <h3>ABOUT OUR FURNITURE</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+        </p>
+    </div>
+
+    <div class="thirdimage">
+        <img src="https://github.com/grup208/classWorksHTML/blob/main/12.01.2024/images/image-about-light.jpg?raw=true">
+    </div>
+
+
+
+</div>
+</body>
+
+</html>
