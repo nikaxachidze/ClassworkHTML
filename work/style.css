@@ -1,0 +1,54 @@
+*{margin: 0;
+    padding: 0;
+}
+
+.logo {border: 1px solid red;background-color: red;}
+.letsrock img {height: 400px;}
+.letsrock h1 {font-size: 45px;color: red;position: relative;left: 40%;bottom: 320px;}
+.letsrock h2 {font-size: 30px;position: relative;left: 45%;bottom: 320px;}
+.letsrock button {height: 40px;width: 130px;border: 1px solid red;border-radius: 20px ;background-color: red;color: white;
+    position: relative;left: 72%;bottom: 250px;}
+.introducing {margin-top: 50px;}
+.introducing h2{color: red;}
+.Jonesmith {margin-top: 50px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.Jonesmith h3{background-color: red;color: white;width: 370px;font-size:30px ;}
+.Jonesmith h4{background-color: red;color: white;width: 370px;font-size:25px ;}
+.RendiOuthor {margin-top: 50px;display: flex; align-items: center;justify-content: center;flex-direction: column;}
+.RendiOuthor h3{background-color: red;color: white;width: 370px;font-size:30px ;}
+.RendiOuthor h4 {background-color: red;color: white;width: 370px;font-size:25px ;}
+.RenesOdim {margin-top: 50px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.RenesOdim h3 {background-color: red;color: white;width: 370px;font-size:30px ;}
+.RenesOdim h4 {background-color: red;color: white;width: 370px;font-size:25px ;}
+.latest {margin-top: 50px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.latest video {width: 400px;height: 200px;}
+.latest h1 {font-size: 40px;position: relative;right: 27%;}
+.latest h2 {font-size: 30px;color: red;position: relative;right: 27%;}
+.subscribe {margin-top: 50px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.subscribe p {font-size: 20px;}
+.subscribe hr {width: 270px;margin-left: 110px;}
+.table {text-align: center;background-color: lightgray;width: 700px;font-size: 30px;;display: none;position: absolute;left: 32%;margin-top: 50px;}
+.table tr{color: red;}
+.table th {color: white;background-color: red;}
+.footer {display: flex;position: absolute;top: 30%}
+
+
+
+
+ @media only screen and (min-width: 600px){
+.letsrock {border: 2px solid red;height: 550px;width: 100%;}
+.letsrock img {width: 900px;height: 500px;}
+.letsrock h1 {font-size:90px;color: red;}
+.letsrock h2 {font-size: 60px;position: relative;left:50%;}
+.letsrock button {position: relative;left: 50%;width: 200px;height: 50px;}
+.introducing {display: flex;}
+.introducing h1 {position: relative;bottom: 40px;}
+.introducing img {margin:10px;}
+.latest h1 {position: relative;right: 27%;}
+.latest h2 {position: relative;right: 27%;}
+.latest video {height: 500px;width: 1000px;}
+.table {display: flex;}
+
+
+
+} 
+
